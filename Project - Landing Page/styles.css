@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-background-colour: #f9faf8;
+  --hero-footer-background-colour: #1f2937;
+  --hero-main-text-colour: #f9faf8;
+  --hero-secondary-text-colour: #e5e7eb;
+  --header-logo-text-colour: #f9faf8;
+  --call-to-action-button-colour: #3882f6;
+  --information-header-quote-text-colour: #1f2937;
+  --quote-background-colour: #e5e7eb;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--main-background-colour);
+}
+
+header {
+  background-color: var(--hero-footer-background-colour);
+}
+
+.nav {
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--header-logo-text-colour);
+}
+
+nav {
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+}
+
+nav ul li a {
+  color: var(--hero-secondary-text-colour);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: var(--hero-main-text-colour);
+}
+
+.hero-secondary-text {
+  color: var(--hero-secondary-text-colour);
+  font-size: 18px;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--information-header-quote-text-colour);
+}
+
+.quote-container {
+  background-color: var(--quote-background-colour);
+}
+
+.quote {
+  font-weight: 300;
+  font-size: 36px;
+  font-style: italic;
+  color: var(--information-header-quote-text-colour);
+}
+
+.quote-author {
+  font-weight: bold;
+}
+
+.action-container {
+  background-color: var(--call-to-action-button-colour);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20%;
+  height: 15vh;
+  background-color: var(--hero-footer-background-colour);
+}
+
+.footer-text {
+  color: var(--hero-main-text-colour);
+}
