@@ -24,29 +24,61 @@ header {
   background-color: var(--hero-footer-background-colour);
 }
 
-.nav {
+section {
+  padding: 5% 10%;
+}
+
+.navbar {
+  display: flex;
 }
 
 .header-logo {
+  flex: 3;
   font-size: 24px;
   font-weight: bold;
   color: var(--header-logo-text-colour);
 }
 
 nav {
+  flex: 1;
+  /* border: red 1px solid; */
 }
 
 nav ul {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  /* border: red 1px solid; */
 }
 
 nav ul li {
+  flex: 1;
+  display: inline-block;
+  /* border: red 1px solid; */
+}
+
+a {
+  color: var(--hero-secondary-text-colour);
+  text-decoration: none;
 }
 
 nav ul li a {
   color: var(--hero-secondary-text-colour);
   text-decoration: none;
   font-size: 18px;
+  /* border: red 1px solid; */
+}
+
+.hero {
+  display: flex;
+  gap: 25px;
+}
+
+.hero-text {
+  flex: 1;
 }
 
 .hero-main-text {
@@ -60,14 +92,65 @@ nav ul li a {
   font-size: 18px;
 }
 
+.sign-up-btn {
+  display: inline-block;
+  background-color: var(--call-to-action-button-colour);
+  border-radius: 5px;
+  margin: 25px 0;
+  padding: 10px 20px;
+  color: var(--hero-main-text-colour);
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--hero-secondary-text-colour);
+}
+
+.hero-image-text {
+  flex: 1;
+  display: inline-block;
+  text-align: center;
+  color: var(--information-header-quote-text-colour);
+}
+
 .info-header {
   font-size: 36px;
   font-weight: bold;
   color: var(--information-header-quote-text-colour);
+  text-align: center;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  /* gap: 5px; */
+}
+
+.info-card {
+  flex: 1;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+.info-img {
+  width: 100%;
+  min-height: 150px;
+  border-radius: 10px;
+  border: var(--call-to-action-button-colour) 2px solid;
+}
+
+.info-text {
+  text-align: center;
+  color: var(--information-header-quote-text-colour);
+  margin: 5px 0;
 }
 
 .quote-container {
   background-color: var(--quote-background-colour);
+  padding: 10% 20%;
 }
 
 .quote {
@@ -79,17 +162,58 @@ nav ul li a {
 
 .quote-author {
   font-weight: bold;
+  text-align: right;
 }
 
 .action-container {
+  margin: 5% 10%;
   background-color: var(--call-to-action-button-colour);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.action-left {
+  flex: 2;
+  /* border: red 1px solid; */
+}
+
+.action-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--hero-main-text-colour);
+  /* border: red 1px solid; */
+}
+
+.action-text {
+  font-size: 18px;
+  color: var(--hero-secondary-text-colour);
+  /* border: red 1px solid; */
+}
+
+.action-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: red 1px solid; */
+}
+
+.action-btn {
+  flex: 1;
+  /* margin: 0 30%; */
+  padding: 10px 20px;
+  border: var(--main-background-colour) 2px solid;
+  border-radius: 5px;
+  color: var(--hero-main-text-colour);
+  display: inline-block;
 }
 
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 20%;
   height: 15vh;
   background-color: var(--hero-footer-background-colour);
 }
