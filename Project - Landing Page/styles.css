@@ -41,7 +41,6 @@ section {
 
 nav {
   flex: 1;
-  /* border: red 1px solid; */
 }
 
 nav ul {
@@ -51,13 +50,11 @@ nav ul {
   align-items: center;
   flex-direction: row;
   gap: 10px;
-  /* border: red 1px solid; */
 }
 
 nav ul li {
   flex: 1;
   display: inline-block;
-  /* border: red 1px solid; */
 }
 
 a {
@@ -69,7 +66,6 @@ nav ul li a {
   color: var(--hero-secondary-text-colour);
   text-decoration: none;
   font-size: 18px;
-  /* border: red 1px solid; */
 }
 
 .hero {
@@ -126,7 +122,6 @@ nav ul li a {
 .info-container {
   display: flex;
   flex-direction: row;
-  /* gap: 5px; */
 }
 
 .info-card {
@@ -176,20 +171,17 @@ nav ul li a {
 
 .action-left {
   flex: 2;
-  /* border: red 1px solid; */
 }
 
 .action-heading {
   font-size: 24px;
   font-weight: bold;
   color: var(--hero-main-text-colour);
-  /* border: red 1px solid; */
 }
 
 .action-text {
   font-size: 18px;
   color: var(--hero-secondary-text-colour);
-  /* border: red 1px solid; */
 }
 
 .action-right {
@@ -197,12 +189,10 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: red 1px solid; */
 }
 
 .action-btn {
   flex: 1;
-  /* margin: 0 30%; */
   padding: 10px 20px;
   border: var(--main-background-colour) 2px solid;
   border-radius: 5px;
